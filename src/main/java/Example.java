@@ -9,7 +9,9 @@ public class Example {
 
     @RequestMapping("/")
     String home() {
-        return "Hello World!  branch master v0.6     v0.5 merged   update to remote  another commit";
+
+        return "Hello World!  branch master v0.6     v0.5 merged   update to remote  merged another commit";
+
     }
 
     public static void main(String[] args) {
